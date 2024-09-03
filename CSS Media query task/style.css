@@ -1,0 +1,21 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: aqua;
+}
+.container{
+    background-color: bisque;
+}
+footer{
+    background-color: blue;
+}
+
+@media screen and (max-width:500px) {
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+}
